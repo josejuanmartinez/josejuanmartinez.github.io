@@ -7,7 +7,8 @@
       "Final"
     ],
     "caption": "ART WORKFLOW",
-    "source": "https://github.com/josejuanmartinez/concept-art-generator#readme"
+    "source": "https://github.com/josejuanmartinez/concept-art-generator#readme",
+    "visual_description": "Separate style references feed a draft; a human approval gate precedes a transparent image export."
   },
   "qwen-image-lora-studio": {
     "summary": "Trains private Qwen-Image LoRA adapters on captioned artwork, then serves image generation through Gradio and an asynchronous API. Supports background removal and upscaling.",
@@ -17,7 +18,8 @@
       "Generate"
     ],
     "caption": "IMAGE ADAPTATION",
-    "source": "https://github.com/josejuanmartinez/qwen-image-lora-studio#readme"
+    "source": "https://github.com/josejuanmartinez/qwen-image-lora-studio#readme",
+    "visual_description": "A frozen weight matrix plus two thin trainable matrices illustrates LoRA adaptation for Qwen image generation."
   },
   "FLUX-1-dev": {
     "summary": "Gradio workbench for FLUX.1-dev inference and LoRA training on image-caption pairs, with quantization and multi-GPU training options.",
@@ -27,7 +29,8 @@
       "FLUX"
     ],
     "caption": "MODEL ADAPTATION",
-    "source": "https://github.com/josejuanmartinez/FLUX-1-dev#readme"
+    "source": "https://github.com/josejuanmartinez/FLUX-1-dev#readme",
+    "visual_description": "Captioned images train a small LoRA adapter around a quantized FLUX base model; a feedback arrow denotes training."
   },
   "Runeboard": {
     "summary": "Hex-and-card strategy game with layered Utility AI, blackboards, hierarchical task planning, behaviour trees, and an MLP for strategic decisions.",
@@ -37,7 +40,8 @@
       "Action"
     ],
     "caption": "GAMEPLAY AI",
-    "source": "https://github.com/josejuanmartinez/Runeboard#readme"
+    "source": "https://github.com/josejuanmartinez/Runeboard#readme",
+    "visual_description": "A route on a hex map is paired with hierarchical task decomposition into possible game actions."
   },
   "videogamesAI": {
     "summary": "Collection of game-AI implementations and articles: C++ pathfinding, Unity behaviour trees and blackboards, local LLM integration, and Unreal gameplay examples.",
@@ -47,7 +51,8 @@
       "Agents"
     ],
     "caption": "GAME AI METHODS",
-    "source": "https://github.com/josejuanmartinez/videogamesAI#readme"
+    "source": "https://github.com/josejuanmartinez/videogamesAI#readme",
+    "visual_description": "A branching behaviour tree reads from and writes to a blackboard of shared game state."
   },
   "NazgulsUnleashed": {
     "summary": "Crusader Kings III submod for Realms in Exile, extending Nazgul territories, cultures, characters, units, and scenario rules.",
@@ -57,7 +62,8 @@
       "Submod"
     ],
     "caption": "MOD DEPENDENCIES",
-    "source": "https://github.com/josejuanmartinez/NazgulsUnleashed#readme"
+    "source": "https://github.com/josejuanmartinez/NazgulsUnleashed#readme",
+    "visual_description": "Adjacent territories and ruler locations accompany the submod\u2019s documented culture, court, unit, and rule changes."
   },
   "c": {
     "summary": "C++ shortest-path finder for a 2D grid, using Dijkstra with movement checks, matrix helpers, and tests for edge cases.",
@@ -67,7 +73,8 @@
       "Path"
     ],
     "caption": "SHORTEST PATH",
-    "source": "https://github.com/josejuanmartinez/c#readme"
+    "source": "https://github.com/josejuanmartinez/c#readme",
+    "visual_description": "A highlighted shortest route navigates around blocked cells in a two-dimensional grid."
   },
   "mindcraft": {
     "summary": "Python library for NPC dialogue using LLMs, retrieved world lore, short- and long-term memory, personality, mood, and motivations. Supports streamed inference with vLLM.",
@@ -77,7 +84,8 @@
       "Dialogue"
     ],
     "caption": "RETRIEVAL + GENERATION",
-    "source": "https://github.com/josejuanmartinez/mindcraft#readme"
+    "source": "https://github.com/josejuanmartinez/mindcraft#readme",
+    "visual_description": "World lore and character memory supply context to an LLM; personality conditions dialogue and interaction feeds memory."
   },
   "toxicity_es_transformers_shap": {
     "summary": "Toxic-news classification with XLM-RoBERTa and Hugging Face Trainer, Optuna tuning, and SHAP explanations of model predictions.",
@@ -87,7 +95,8 @@
       "SHAP"
     ],
     "caption": "EXPLAINABLE CLASSIFICATION",
-    "source": "https://github.com/josejuanmartinez/toxicity_es_transformers_shap#readme"
+    "source": "https://github.com/josejuanmartinez/toxicity_es_transformers_shap#readme",
+    "visual_description": "Highlighted text tokens align with signed SHAP attribution bars around a neutral baseline; bars are conceptual, not benchmark results."
   },
   "documentqa_back": {
     "summary": "Document question-answering backend built with FastAPI, LangChain, OpenAI, and Chroma vector storage. Includes user authentication and Docker deployment.",
@@ -97,7 +106,8 @@
       "Answer"
     ],
     "caption": "DOCUMENT QA BACKEND",
-    "source": "https://github.com/josejuanmartinez/documentqa_back#readme"
+    "source": "https://github.com/josejuanmartinez/documentqa_back#readme",
+    "visual_description": "Document chunks populate a vector index; a question retrieves context for a source-grounded answer."
   },
   "documentqa_front": {
     "summary": "React and Vite frontend for the document question-answering application, paired with the Document QA backend.",
@@ -107,7 +117,8 @@
       "Answer"
     ],
     "caption": "DOCUMENT QA CLIENT",
-    "source": "https://github.com/josejuanmartinez/documentqa_front#readme"
+    "source": "https://github.com/josejuanmartinez/documentqa_front#readme",
+    "visual_description": "A compact client interface separates document selection from question entry and returned answers."
   },
   "libreCatastro": {
     "summary": "Collects Spanish cadastral records and property plans from XML services or HTML, indexes them in Elasticsearch, and visualizes locations in Kibana.",
@@ -117,7 +128,8 @@
       "Kibana"
     ],
     "caption": "GEOSPATIAL DATA PIPELINE",
-    "source": "https://github.com/josejuanmartinez/libreCatastro#readme"
+    "source": "https://github.com/josejuanmartinez/libreCatastro#readme",
+    "visual_description": "Property parcels and a spatial query connect cadastral records to an index and geographic visualization."
   },
   "TeaNLP-front": {
     "summary": "Angular frontend for TeaNLP: a graph-based interface for transforming, extracting, and analyzing text.",
@@ -127,7 +139,8 @@
       "Analysis"
     ],
     "caption": "NLP WORKFLOW CLIENT",
-    "source": "https://github.com/josejuanmartinez/TeaNLP-front#readme"
+    "source": "https://github.com/josejuanmartinez/TeaNLP-front#readme",
+    "visual_description": "An editor palette and node canvas illustrate the Angular frontend for composing NLP graph workflows."
   },
   "TeaNLP": {
     "summary": "NLP graph project for transforming, extracting, and analyzing text; the documentation includes part-of-speech tag references.",
@@ -137,7 +150,8 @@
       "Analyze"
     ],
     "caption": "NLP PROCESSING",
-    "source": "https://github.com/josejuanmartinez/TeaNLP#readme"
+    "source": "https://github.com/josejuanmartinez/TeaNLP#readme",
+    "visual_description": "A sample sentence carries part-of-speech tags and grammatical links, illustrating structured NLP annotations."
   },
   "sparknlp-huggingface-gradio": {
     "summary": "Demonstrates a Spark NLP named-entity recognition pipeline using a model from Hugging Face, with a Gradio interface and biomedical training data.",
@@ -147,7 +161,8 @@
       "Entities"
     ],
     "caption": "NAMED ENTITY RECOGNITION",
-    "source": "https://github.com/josejuanmartinez/sparknlp-huggingface-gradio#readme"
+    "source": "https://github.com/josejuanmartinez/sparknlp-huggingface-gradio#readme",
+    "visual_description": "A disease mention is highlighted in biomedical text above the tokenizer, embedding, and named-entity stages."
   },
   "medium": {
     "summary": "Index of technical articles on Spark NLP deployment, API serving, MLflow tracking, Hugging Face integration, and document-cluster visualization.",
@@ -157,7 +172,8 @@
       "Articles"
     ],
     "caption": "TECHNICAL WRITING",
-    "source": "https://github.com/josejuanmartinez/medium#readme"
+    "source": "https://github.com/josejuanmartinez/medium#readme",
+    "visual_description": "An article page sits beside a small serving-code excerpt, representing the repository\u2019s technical writing index."
   },
   "anonymizer": {
     "summary": "Combines Flair neural entity recognition with regular expressions to anonymize text extracted from PDFs, including names, dates, and Spanish identifiers.",
@@ -167,7 +183,8 @@
       "Redact"
     ],
     "caption": "HYBRID ANONYMIZATION",
-    "source": "https://github.com/josejuanmartinez/anonymizer#readme"
+    "source": "https://github.com/josejuanmartinez/anonymizer#readme",
+    "visual_description": "Neural recognition identifies names and dates while regex detects an email; the output masks those text spans."
   },
   "unsupervised_learning": {
     "summary": "Repository for Spanish-language unsupervised-learning teaching materials. Its current contents are an introductory README.",
@@ -177,7 +194,8 @@
       "Notes"
     ],
     "caption": "TEACHING REPOSITORY",
-    "source": "https://github.com/josejuanmartinez/unsupervised_learning#readme"
+    "source": "https://github.com/josejuanmartinez/unsupervised_learning#readme",
+    "visual_description": "Three unlabeled point clouds illustrate the teaching topic of discovering structure; no experiment results are claimed."
   },
   "supervised_learning": {
     "summary": "Spanish-language machine-learning teaching materials, including classification practice notebooks, solutions, and lecture slides.",
@@ -187,7 +205,8 @@
       "Practice"
     ],
     "caption": "SUPERVISED LEARNING",
-    "source": "https://github.com/josejuanmartinez/supervised_learning#readme"
+    "source": "https://github.com/josejuanmartinez/supervised_learning#readme",
+    "visual_description": "Labeled points and a separating boundary illustrate supervised classification practice, not measured model performance."
   },
   "graph_snippets": {
     "summary": "Cypher snippets for importing Gremlin JSON nodes and edges into Neo4j.",
@@ -197,7 +216,8 @@
       "Neo4j"
     ],
     "caption": "GRAPH DATA IMPORT",
-    "source": "https://github.com/josejuanmartinez/graph_snippets#readme"
+    "source": "https://github.com/josejuanmartinez/graph_snippets#readme",
+    "visual_description": "A JSON node-and-edge structure maps into a connected property graph through Cypher imports."
   },
   "borme": {
     "summary": "Company and person CSV datasets with Logstash configurations and Elasticsearch setup scripts for indexing and exploring relationships in Kibana.",
@@ -207,7 +227,8 @@
       "Elastic"
     ],
     "caption": "COMPANY DATA PIPELINE",
-    "source": "https://github.com/josejuanmartinez/borme#readme"
+    "source": "https://github.com/josejuanmartinez/borme#readme",
+    "visual_description": "A bipartite-style network shows people linked to companies, the relationships explored after CSV ingestion."
   },
   "news_classifier": {
     "summary": "Compares statistical classifiers on HuffPost news, with configurable text features, Doc2Vec embeddings, and train/test splits.",
@@ -217,7 +238,8 @@
       "Classes"
     ],
     "caption": "TEXT CLASSIFICATION",
-    "source": "https://github.com/josejuanmartinez/news_classifier#readme"
+    "source": "https://github.com/josejuanmartinez/news_classifier#readme",
+    "visual_description": "News becomes a feature matrix shared by alternative classifiers; no comparative accuracy is fabricated."
   },
   "josejuanmartinez": {
     "summary": "GitHub profile README introducing AI engineering, game development, professional experience, and links to selected work.",
@@ -227,7 +249,8 @@
       "Links"
     ],
     "caption": "PROFILE INDEX",
-    "source": "https://github.com/josejuanmartinez/josejuanmartinez#readme"
+    "source": "https://github.com/josejuanmartinez/josejuanmartinez#readme",
+    "visual_description": "A profile symbol accompanies the documented areas of professional work."
   },
   "josejuanmartinez.github.io": {
     "summary": "Static portfolio organizing public repositories and gameplay recordings, published through GitHub Pages.",
@@ -237,7 +260,8 @@
       "Pages"
     ],
     "caption": "PORTFOLIO BUILD",
-    "source": "https://github.com/josejuanmartinez/josejuanmartinez.github.io#readme"
+    "source": "https://github.com/josejuanmartinez/josejuanmartinez.github.io#readme",
+    "visual_description": "A miniature browser contains a personal introduction and a grid of repository cards."
   },
   "SoulsRandomizers": {
     "summary": "Fork of randomizers for Dark Souls III, Sekiro, and Elden Ring. Item placement accounts for progression dependencies and configurable weighting.",
@@ -247,7 +271,8 @@
       "Locations"
     ],
     "caption": "CONSTRAINED RANDOMIZATION",
-    "source": "https://github.com/josejuanmartinez/SoulsRandomizers#readme"
+    "source": "https://github.com/josejuanmartinez/SoulsRandomizers#readme",
+    "visual_description": "Items are permuted across locations while respecting progression constraints rather than unconstrained shuffling."
   },
   "SoulsFormatsNEXT": {
     "summary": "Fork of a .NET library for reading and writing FromSoftware game formats, including archive and compression handling.",
@@ -257,7 +282,8 @@
       "Binary"
     ],
     "caption": "FORMAT SERIALIZATION",
-    "source": "https://github.com/josejuanmartinez/SoulsFormatsNEXT#readme"
+    "source": "https://github.com/josejuanmartinez/SoulsFormatsNEXT#readme",
+    "visual_description": "Raw binary bytes map to a structured archive object and back through format readers and writers."
   },
   "SoulsIds": {
     "summary": "Fork of C# modding helpers built around SoulsFormats, including an in-memory graph for assigning meaningful names to game IDs.",
@@ -267,7 +293,8 @@
       "Names"
     ],
     "caption": "MODDING UTILITIES",
-    "source": "https://github.com/josejuanmartinez/SoulsIds#readme"
+    "source": "https://github.com/josejuanmartinez/SoulsIds#readme",
+    "visual_description": "Relationships among numeric game IDs help build meaningful names in the modding helper library."
   },
   "yet-another-tab-control": {
     "summary": "Fork of a Windows Forms control that supports custom, user-drawn tabs.",
@@ -277,7 +304,8 @@
       "WinForms"
     ],
     "caption": "CUSTOM UI CONTROL",
-    "source": "https://github.com/josejuanmartinez/yet-another-tab-control#readme"
+    "source": "https://github.com/josejuanmartinez/yet-another-tab-control#readme",
+    "visual_description": "Differently rendered tabs show the selected state above a Windows Forms content panel."
   },
   "RealmsInExile": {
     "summary": "Fork of the Lord of the Rings total-overhaul mod for Crusader Kings III, covering characters, territories, events, and worldbuilding.",
@@ -287,7 +315,8 @@
       "LOTR"
     ],
     "caption": "TOTAL-CONVERSION MOD",
-    "source": "https://github.com/josejuanmartinez/RealmsInExile#readme"
+    "source": "https://github.com/josejuanmartinez/RealmsInExile#readme",
+    "visual_description": "An abstract game map and connected worldbuilding categories illustrate a total-conversion mod, not a geographic claim."
   },
   "making-games-with-ai-course": {
     "summary": "Fork of the Hugging Face Machine Learning for Games course, containing lesson sources and notebooks.",
@@ -297,7 +326,8 @@
       "Games"
     ],
     "caption": "COURSE MATERIALS",
-    "source": "https://github.com/josejuanmartinez/making-games-with-ai-course#readme"
+    "source": "https://github.com/josejuanmartinez/making-games-with-ai-course#readme",
+    "visual_description": "A lesson notebook is paired with a small game environment, reflecting course theory and practical exercises."
   },
   "deep-rl-class": {
     "summary": "Fork of the Hugging Face Deep Reinforcement Learning course, containing lesson sources and notebooks.",
@@ -307,7 +337,8 @@
       "World"
     ],
     "caption": "REINFORCEMENT LEARNING",
-    "source": "https://github.com/josejuanmartinez/deep-rl-class#readme"
+    "source": "https://github.com/josejuanmartinez/deep-rl-class#readme",
+    "visual_description": "The reinforcement-learning loop sends an action to the environment and returns state and reward to the agent."
   },
   "openedgar": {
     "summary": "Fork of the OpenEDGAR framework for retrieving and parsing SEC EDGAR filings into databases, with Docker installation support.",
@@ -317,6 +348,7 @@
       "Database"
     ],
     "caption": "FINANCIAL DOCUMENT INGEST",
-    "source": "https://github.com/josejuanmartinez/openedgar#readme"
+    "source": "https://github.com/josejuanmartinez/openedgar#readme",
+    "visual_description": "SEC filing documents are parsed into structured fields and persisted in a database."
   }
 }
