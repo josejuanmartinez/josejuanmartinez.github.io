@@ -329,5 +329,16 @@
       "name": "Python"
     },
     "url": "https://github.com/josejuanmartinez/news_classifier"
+  },
+  {
+    "name": "josejuanmartinez.github.io",
+    "description": "Portfolio of games, AI tools and open-source projects.",
+    "url": "https://github.com/josejuanmartinez/josejuanmartinez.github.io",
+    "homepageUrl": "https://josejuanmartinez.github.io/",
+    "isPrivate": false,
+    "isFork": false,
+    "primaryLanguage": {
+      "name": "HTML"
+    }
   }
 ]

@@ -1,7 +1,7 @@
-﻿import pathlib,json,html
+import pathlib,json,html
 p=pathlib.Path(r'C:/Users/jjmca/josejuanmartinez.github.io')
 r=json.loads((p/'repos.json').read_text()); esc=html.escape
-cats={'Games & worlds':['Runeboard','videogamesAI','NazgulsUnleashed','c'],'AI & creative tools':['concept-art-generator','qwen-image-lora-studio','FLUX-1-dev','mindcraft','toxicity_es_transformers_shap','documentqa_back','documentqa_front','TeaNLP','TeaNLP-front','sparknlp-huggingface-gradio','anonymizer'],'Data & open source':['libreCatastro','graph_snippets','borme','news_classifier'],'Learning & notes':['medium','unsupervised_learning','supervised_learning','josejuanmartinez']}
+cats={'Games & worlds':['Runeboard','videogamesAI','NazgulsUnleashed','c'],'AI & creative tools':['concept-art-generator','qwen-image-lora-studio','FLUX-1-dev','mindcraft','toxicity_es_transformers_shap','documentqa_back','documentqa_front','TeaNLP','TeaNLP-front','sparknlp-huggingface-gradio','anonymizer'],'Data & open source':['libreCatastro','graph_snippets','borme','news_classifier'],'Learning & notes':['medium','unsupervised_learning','supervised_learning','josejuanmartinez','josejuanmartinez.github.io']}
 sections=''
 for cat in [*cats,'Forks & explorations']:
  items=[x for x in r if (x['isFork'] if cat=='Forks & explorations' else not x['isFork'] and x['name'] in cats[cat])]
