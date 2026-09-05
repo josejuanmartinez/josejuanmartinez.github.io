@@ -1,0 +1,333 @@
+[
+  {
+    "description": "Config files for my GitHub profile.",
+    "homepageUrl": "https://github.com/josejuanmartinez",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "josejuanmartinez",
+    "primaryLanguage": null,
+    "url": "https://github.com/josejuanmartinez/josejuanmartinez"
+  },
+  {
+    "description": "Agentic Concept Art Generation ",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "concept-art-generator",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/concept-art-generator"
+  },
+  {
+    "description": "Qwen Image LoRA Studio",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "qwen-image-lora-studio",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/qwen-image-lora-studio"
+  },
+  {
+    "description": "Strategy + Card game with custom art and AI",
+    "homepageUrl": "https://josejuanmartinez.github.io/Runeboard/",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "Runeboard",
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "url": "https://github.com/josejuanmartinez/Runeboard"
+  },
+  {
+    "description": "Hugging Face Gradio Space to train QLoRA on FLUX 1 dev",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "FLUX-1-dev",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/FLUX-1-dev"
+  },
+  {
+    "description": "DS3, Sekiro, and Elden Ring Randomizers",
+    "homepageUrl": "",
+    "isFork": true,
+    "isPrivate": false,
+    "name": "SoulsRandomizers",
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "url": "https://github.com/josejuanmartinez/SoulsRandomizers"
+  },
+  {
+    "description": "A .NET library for reading and writing FromSoftware file formats.",
+    "homepageUrl": "",
+    "isFork": true,
+    "isPrivate": false,
+    "name": "SoulsFormatsNEXT",
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "url": "https://github.com/josejuanmartinez/SoulsFormatsNEXT"
+  },
+  {
+    "description": "Helper library for writing mods of From Software games in C#",
+    "homepageUrl": "",
+    "isFork": true,
+    "isPrivate": false,
+    "name": "SoulsIds",
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "url": "https://github.com/josejuanmartinez/SoulsIds"
+  },
+  {
+    "description": "A Winforms tab control that allows user-drawn tabs.",
+    "homepageUrl": "http://www.codeproject.com/Articles/12538/Y-et-A-nother-TabControl-A-Custom-Tab-Control-With",
+    "isFork": true,
+    "isPrivate": false,
+    "name": "yet-another-tab-control",
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "url": "https://github.com/josejuanmartinez/yet-another-tab-control"
+  },
+  {
+    "description": "A repository with C++ and C# projects showcasing Video games AI",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "videogamesAI",
+    "primaryLanguage": {
+      "name": "C#"
+    },
+    "url": "https://github.com/josejuanmartinez/videogamesAI"
+  },
+  {
+    "description": "",
+    "homepageUrl": "https://discord.gg/FKr4Zbr",
+    "isFork": true,
+    "isPrivate": false,
+    "name": "RealmsInExile",
+    "primaryLanguage": {
+      "name": "GLSL"
+    },
+    "url": "https://github.com/josejuanmartinez/RealmsInExile"
+  },
+  {
+    "description": "The Realm of the Long Rider: submod for Realms in Exile (Crusader Kings III)",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "NazgulsUnleashed",
+    "primaryLanguage": {
+      "name": "AMPL"
+    },
+    "url": "https://github.com/josejuanmartinez/NazgulsUnleashed"
+  },
+  {
+    "description": "This repository contains the ML For Games Course",
+    "homepageUrl": "",
+    "isFork": true,
+    "isPrivate": false,
+    "name": "making-games-with-ai-course",
+    "primaryLanguage": {
+      "name": "MDX"
+    },
+    "url": "https://github.com/josejuanmartinez/making-games-with-ai-course"
+  },
+  {
+    "description": "Mindcraft, the open-source NLP solution to craft the minds of your NPC characters for your videogames.",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "mindcraft",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/mindcraft"
+  },
+  {
+    "description": "This repo contains the syllabus of the Hugging Face Deep Reinforcement Learning Course.",
+    "homepageUrl": "",
+    "isFork": true,
+    "isPrivate": false,
+    "name": "deep-rl-class",
+    "primaryLanguage": {
+      "name": "MDX"
+    },
+    "url": "https://github.com/josejuanmartinez/deep-rl-class"
+  },
+  {
+    "description": "This is the repository for the Toxicity Classifier model based on XLM-Roberta, trained with Hugging Face Trainer API and using SHAP interpretability and optuna GridSearch and sharding.",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "toxicity_es_transformers_shap",
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "url": "https://github.com/josejuanmartinez/toxicity_es_transformers_shap"
+  },
+  {
+    "description": "Document Question Answering with Vector Stores, Langchain and LLM (backend)",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "documentqa_back",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/documentqa_back"
+  },
+  {
+    "description": "OpenSource platform for downloading and querying Spanish Official Cadaster Registry (Catastro)",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "libreCatastro",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/libreCatastro"
+  },
+  {
+    "description": "C++ Snippets for video games development (e.g., Pathfinders)",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "c",
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "url": "https://github.com/josejuanmartinez/c"
+  },
+  {
+    "description": "Document Question Answering with Vector Stores, Langchain and LLM (frontend)",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "documentqa_front",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/josejuanmartinez/documentqa_front"
+  },
+  {
+    "description": "Front for Train, Extract, Annotate",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "TeaNLP-front",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/josejuanmartinez/TeaNLP-front"
+  },
+  {
+    "description": "OpenEDGAR (openedgar.io)",
+    "homepageUrl": "",
+    "isFork": true,
+    "isPrivate": false,
+    "name": "openedgar",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/openedgar"
+  },
+  {
+    "description": "Example of how to integrate Spark NLP using Hugging Face Hub with a demo on Gradio",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "sparknlp-huggingface-gradio",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/sparknlp-huggingface-gradio"
+  },
+  {
+    "description": "TeaNLP - Pet project - Transform, Extract, Analyze using NLP graphs",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "TeaNLP",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/TeaNLP"
+  },
+  {
+    "description": "",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "medium",
+    "primaryLanguage": null,
+    "url": "https://github.com/josejuanmartinez/medium"
+  },
+  {
+    "description": "",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "anonymizer",
+    "primaryLanguage": null,
+    "url": "https://github.com/josejuanmartinez/anonymizer"
+  },
+  {
+    "description": "Unsupervised teaching learning materials (in Spanish)",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "unsupervised_learning",
+    "primaryLanguage": null,
+    "url": "https://github.com/josejuanmartinez/unsupervised_learning"
+  },
+  {
+    "description": "Supervised learning materials (in Spanish)",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "supervised_learning",
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    },
+    "url": "https://github.com/josejuanmartinez/supervised_learning"
+  },
+  {
+    "description": "Gremlin / Tinkerpop/ Neo4j snippets",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "graph_snippets",
+    "primaryLanguage": null,
+    "url": "https://github.com/josejuanmartinez/graph_snippets"
+  },
+  {
+    "description": "CSV and logstash files to import to ELK",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "borme",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/borme"
+  },
+  {
+    "description": "A Huffpost (from KAGGLE) News Classifier using different statistical algorithms from SCIKIT-LEARN",
+    "homepageUrl": "",
+    "isFork": false,
+    "isPrivate": false,
+    "name": "news_classifier",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/josejuanmartinez/news_classifier"
+  }
+]
