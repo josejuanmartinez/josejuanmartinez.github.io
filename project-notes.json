@@ -1,0 +1,322 @@
+{
+  "concept-art-generator": {
+    "summary": "Generates concept art from isolated style references using GPT Image or a trained LoRA. Requires human approval before exporting transparent 2K finals.",
+    "nodes": [
+      "Draft",
+      "Approve",
+      "Final"
+    ],
+    "caption": "ART WORKFLOW",
+    "source": "https://github.com/josejuanmartinez/concept-art-generator#readme"
+  },
+  "qwen-image-lora-studio": {
+    "summary": "Trains private Qwen-Image LoRA adapters on captioned artwork, then serves image generation through Gradio and an asynchronous API. Supports background removal and upscaling.",
+    "nodes": [
+      "Art data",
+      "LoRA",
+      "Generate"
+    ],
+    "caption": "IMAGE ADAPTATION",
+    "source": "https://github.com/josejuanmartinez/qwen-image-lora-studio#readme"
+  },
+  "FLUX-1-dev": {
+    "summary": "Gradio workbench for FLUX.1-dev inference and LoRA training on image-caption pairs, with quantization and multi-GPU training options.",
+    "nodes": [
+      "Images",
+      "QLoRA",
+      "FLUX"
+    ],
+    "caption": "MODEL ADAPTATION",
+    "source": "https://github.com/josejuanmartinez/FLUX-1-dev#readme"
+  },
+  "Runeboard": {
+    "summary": "Hex-and-card strategy game with layered Utility AI, blackboards, hierarchical task planning, behaviour trees, and an MLP for strategic decisions.",
+    "nodes": [
+      "Utility",
+      "HTN",
+      "Action"
+    ],
+    "caption": "GAMEPLAY AI",
+    "source": "https://github.com/josejuanmartinez/Runeboard#readme"
+  },
+  "videogamesAI": {
+    "summary": "Collection of game-AI implementations and articles: C++ pathfinding, Unity behaviour trees and blackboards, local LLM integration, and Unreal gameplay examples.",
+    "nodes": [
+      "Search",
+      "Trees",
+      "Agents"
+    ],
+    "caption": "GAME AI METHODS",
+    "source": "https://github.com/josejuanmartinez/videogamesAI#readme"
+  },
+  "NazgulsUnleashed": {
+    "summary": "Crusader Kings III submod for Realms in Exile, extending Nazgul territories, cultures, characters, units, and scenario rules.",
+    "nodes": [
+      "CK III",
+      "Realms",
+      "Submod"
+    ],
+    "caption": "MOD DEPENDENCIES",
+    "source": "https://github.com/josejuanmartinez/NazgulsUnleashed#readme"
+  },
+  "c": {
+    "summary": "C++ shortest-path finder for a 2D grid, using Dijkstra with movement checks, matrix helpers, and tests for edge cases.",
+    "nodes": [
+      "Grid",
+      "Dijkstra",
+      "Path"
+    ],
+    "caption": "SHORTEST PATH",
+    "source": "https://github.com/josejuanmartinez/c#readme"
+  },
+  "mindcraft": {
+    "summary": "Python library for NPC dialogue using LLMs, retrieved world lore, short- and long-term memory, personality, mood, and motivations. Supports streamed inference with vLLM.",
+    "nodes": [
+      "Lore+mem",
+      "LLM",
+      "Dialogue"
+    ],
+    "caption": "RETRIEVAL + GENERATION",
+    "source": "https://github.com/josejuanmartinez/mindcraft#readme"
+  },
+  "toxicity_es_transformers_shap": {
+    "summary": "Toxic-news classification with XLM-RoBERTa and Hugging Face Trainer, Optuna tuning, and SHAP explanations of model predictions.",
+    "nodes": [
+      "News",
+      "XLM-R",
+      "SHAP"
+    ],
+    "caption": "EXPLAINABLE CLASSIFICATION",
+    "source": "https://github.com/josejuanmartinez/toxicity_es_transformers_shap#readme"
+  },
+  "documentqa_back": {
+    "summary": "Document question-answering backend built with FastAPI, LangChain, OpenAI, and Chroma vector storage. Includes user authentication and Docker deployment.",
+    "nodes": [
+      "Question",
+      "Retrieval",
+      "Answer"
+    ],
+    "caption": "DOCUMENT QA BACKEND",
+    "source": "https://github.com/josejuanmartinez/documentqa_back#readme"
+  },
+  "documentqa_front": {
+    "summary": "React and Vite frontend for the document question-answering application, paired with the Document QA backend.",
+    "nodes": [
+      "React UI",
+      "QA API",
+      "Answer"
+    ],
+    "caption": "DOCUMENT QA CLIENT",
+    "source": "https://github.com/josejuanmartinez/documentqa_front#readme"
+  },
+  "libreCatastro": {
+    "summary": "Collects Spanish cadastral records and property plans from XML services or HTML, indexes them in Elasticsearch, and visualizes locations in Kibana.",
+    "nodes": [
+      "Cadaster",
+      "Elastic",
+      "Kibana"
+    ],
+    "caption": "GEOSPATIAL DATA PIPELINE",
+    "source": "https://github.com/josejuanmartinez/libreCatastro#readme"
+  },
+  "TeaNLP-front": {
+    "summary": "Angular frontend for TeaNLP: a graph-based interface for transforming, extracting, and analyzing text.",
+    "nodes": [
+      "Text",
+      "Graph UI",
+      "Analysis"
+    ],
+    "caption": "NLP WORKFLOW CLIENT",
+    "source": "https://github.com/josejuanmartinez/TeaNLP-front#readme"
+  },
+  "TeaNLP": {
+    "summary": "NLP graph project for transforming, extracting, and analyzing text; the documentation includes part-of-speech tag references.",
+    "nodes": [
+      "Transform",
+      "Extract",
+      "Analyze"
+    ],
+    "caption": "NLP PROCESSING",
+    "source": "https://github.com/josejuanmartinez/TeaNLP#readme"
+  },
+  "sparknlp-huggingface-gradio": {
+    "summary": "Demonstrates a Spark NLP named-entity recognition pipeline using a model from Hugging Face, with a Gradio interface and biomedical training data.",
+    "nodes": [
+      "Text",
+      "Spark NER",
+      "Entities"
+    ],
+    "caption": "NAMED ENTITY RECOGNITION",
+    "source": "https://github.com/josejuanmartinez/sparknlp-huggingface-gradio#readme"
+  },
+  "medium": {
+    "summary": "Index of technical articles on Spark NLP deployment, API serving, MLflow tracking, Hugging Face integration, and document-cluster visualization.",
+    "nodes": [
+      "NLP",
+      "Serving",
+      "Articles"
+    ],
+    "caption": "TECHNICAL WRITING",
+    "source": "https://github.com/josejuanmartinez/medium#readme"
+  },
+  "anonymizer": {
+    "summary": "Combines Flair neural entity recognition with regular expressions to anonymize text extracted from PDFs, including names, dates, and Spanish identifiers.",
+    "nodes": [
+      "Text",
+      "NER + RE",
+      "Redact"
+    ],
+    "caption": "HYBRID ANONYMIZATION",
+    "source": "https://github.com/josejuanmartinez/anonymizer#readme"
+  },
+  "unsupervised_learning": {
+    "summary": "Repository for Spanish-language unsupervised-learning teaching materials. Its current contents are an introductory README.",
+    "nodes": [
+      "Unlabeled",
+      "Learning",
+      "Notes"
+    ],
+    "caption": "TEACHING REPOSITORY",
+    "source": "https://github.com/josejuanmartinez/unsupervised_learning#readme"
+  },
+  "supervised_learning": {
+    "summary": "Spanish-language machine-learning teaching materials, including classification practice notebooks, solutions, and lecture slides.",
+    "nodes": [
+      "Data + y",
+      "Classifier",
+      "Practice"
+    ],
+    "caption": "SUPERVISED LEARNING",
+    "source": "https://github.com/josejuanmartinez/supervised_learning#readme"
+  },
+  "graph_snippets": {
+    "summary": "Cypher snippets for importing Gremlin JSON nodes and edges into Neo4j.",
+    "nodes": [
+      "Gremlin",
+      "Cypher",
+      "Neo4j"
+    ],
+    "caption": "GRAPH DATA IMPORT",
+    "source": "https://github.com/josejuanmartinez/graph_snippets#readme"
+  },
+  "borme": {
+    "summary": "Company and person CSV datasets with Logstash configurations and Elasticsearch setup scripts for indexing and exploring relationships in Kibana.",
+    "nodes": [
+      "CSV",
+      "Logstash",
+      "Elastic"
+    ],
+    "caption": "COMPANY DATA PIPELINE",
+    "source": "https://github.com/josejuanmartinez/borme#readme"
+  },
+  "news_classifier": {
+    "summary": "Compares statistical classifiers on HuffPost news, with configurable text features, Doc2Vec embeddings, and train/test splits.",
+    "nodes": [
+      "News",
+      "Features",
+      "Classes"
+    ],
+    "caption": "TEXT CLASSIFICATION",
+    "source": "https://github.com/josejuanmartinez/news_classifier#readme"
+  },
+  "josejuanmartinez": {
+    "summary": "GitHub profile README introducing AI engineering, game development, professional experience, and links to selected work.",
+    "nodes": [
+      "Profile",
+      "Projects",
+      "Links"
+    ],
+    "caption": "PROFILE INDEX",
+    "source": "https://github.com/josejuanmartinez/josejuanmartinez#readme"
+  },
+  "josejuanmartinez.github.io": {
+    "summary": "Static portfolio organizing public repositories and gameplay recordings, published through GitHub Pages.",
+    "nodes": [
+      "Metadata",
+      "HTML",
+      "Pages"
+    ],
+    "caption": "PORTFOLIO BUILD",
+    "source": "https://github.com/josejuanmartinez/josejuanmartinez.github.io#readme"
+  },
+  "SoulsRandomizers": {
+    "summary": "Fork of randomizers for Dark Souls III, Sekiro, and Elden Ring. Item placement accounts for progression dependencies and configurable weighting.",
+    "nodes": [
+      "Items",
+      "Shuffle",
+      "Locations"
+    ],
+    "caption": "CONSTRAINED RANDOMIZATION",
+    "source": "https://github.com/josejuanmartinez/SoulsRandomizers#readme"
+  },
+  "SoulsFormatsNEXT": {
+    "summary": "Fork of a .NET library for reading and writing FromSoftware game formats, including archive and compression handling.",
+    "nodes": [
+      "Binary",
+      "Objects",
+      "Binary"
+    ],
+    "caption": "FORMAT SERIALIZATION",
+    "source": "https://github.com/josejuanmartinez/SoulsFormatsNEXT#readme"
+  },
+  "SoulsIds": {
+    "summary": "Fork of C# modding helpers built around SoulsFormats, including an in-memory graph for assigning meaningful names to game IDs.",
+    "nodes": [
+      "Game IDs",
+      "Graph",
+      "Names"
+    ],
+    "caption": "MODDING UTILITIES",
+    "source": "https://github.com/josejuanmartinez/SoulsIds#readme"
+  },
+  "yet-another-tab-control": {
+    "summary": "Fork of a Windows Forms control that supports custom, user-drawn tabs.",
+    "nodes": [
+      "Tab data",
+      "Draw",
+      "WinForms"
+    ],
+    "caption": "CUSTOM UI CONTROL",
+    "source": "https://github.com/josejuanmartinez/yet-another-tab-control#readme"
+  },
+  "RealmsInExile": {
+    "summary": "Fork of the Lord of the Rings total-overhaul mod for Crusader Kings III, covering characters, territories, events, and worldbuilding.",
+    "nodes": [
+      "CK III",
+      "Overhaul",
+      "LOTR"
+    ],
+    "caption": "TOTAL-CONVERSION MOD",
+    "source": "https://github.com/josejuanmartinez/RealmsInExile#readme"
+  },
+  "making-games-with-ai-course": {
+    "summary": "Fork of the Hugging Face Machine Learning for Games course, containing lesson sources and notebooks.",
+    "nodes": [
+      "Lessons",
+      "ML",
+      "Games"
+    ],
+    "caption": "COURSE MATERIALS",
+    "source": "https://github.com/josejuanmartinez/making-games-with-ai-course#readme"
+  },
+  "deep-rl-class": {
+    "summary": "Fork of the Hugging Face Deep Reinforcement Learning course, containing lesson sources and notebooks.",
+    "nodes": [
+      "Agent",
+      "Action",
+      "World"
+    ],
+    "caption": "REINFORCEMENT LEARNING",
+    "source": "https://github.com/josejuanmartinez/deep-rl-class#readme"
+  },
+  "openedgar": {
+    "summary": "Fork of the OpenEDGAR framework for retrieving and parsing SEC EDGAR filings into databases, with Docker installation support.",
+    "nodes": [
+      "EDGAR",
+      "Parse",
+      "Database"
+    ],
+    "caption": "FINANCIAL DOCUMENT INGEST",
+    "source": "https://github.com/josejuanmartinez/openedgar#readme"
+  }
+}

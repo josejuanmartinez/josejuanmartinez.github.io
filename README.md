@@ -1,4 +1,4 @@
-﻿# Juan Martinez — Portfolio
+# Juan Martinez — Portfolio
 
 Public portfolio at https://josejuanmartinez.github.io/.
 
@@ -10,6 +10,8 @@ Edit `repos.json` (public repositories only), then run `python build.py` to refr
 
 GitHub Pages serves the root directory of the `main` branch. Push changes to publish.
 
-## Generated illustrations
+## Project diagrams
 
-Original images are generated with `gpt-image-2` using the bundled imagegen CLI. The complete prompt set is in `art-direction/prompts.jsonl`; website copies are in `assets/generated/`. Generated tool visuals are labeled as concepts to distinguish them from application screenshots. The game reels remain actual gameplay footage.
+`project-notes.json` records summaries, source links, and schematic labels based on each repository's README (and root files for sparse documentation). These diagrams describe concepts and workflows, not benchmark results.
+
+Run `python render_diagrams.py` to create the 240 x 80 pixel PNG diagrams in `assets/diagrams/`, then `python build.py` to update the page. Diagram rendering uses Pillow. The site serves only compact diagrams and real gameplay media; earlier decorative illustrations are no longer referenced.
