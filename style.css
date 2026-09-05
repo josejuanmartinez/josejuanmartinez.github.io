@@ -16,3 +16,7 @@
 .section-art{aspect-ratio:2/1}
 .category-art{aspect-ratio:3/1}
 @media(max-width:620px){.category-art{aspect-ratio:2/1}}
+/* Personal portrait */
+.hero-portrait{display:block;width:88px;height:88px;object-fit:cover;border-radius:50%;border:2px solid var(--lime);padding:4px;background:var(--bg);margin-bottom:20px}
+.about-portrait{width:32%;max-width:340px;aspect-ratio:1;object-fit:cover}
+@media(max-width:620px){.hero-portrait{width:76px;height:76px}.about-portrait{width:100%;max-width:300px}}
