@@ -20,3 +20,7 @@
 .hero-portrait{display:block;width:88px;height:88px;object-fit:cover;border-radius:50%;border:2px solid var(--lime);padding:4px;background:var(--bg);margin-bottom:20px}
 .about-portrait{width:32%;max-width:340px;aspect-ratio:1;object-fit:cover}
 @media(max-width:620px){.hero-portrait{width:76px;height:76px}.about-portrait{width:100%;max-width:300px}}
+/* Compact portrait thumbnails */
+.hero-portrait{width:28px;height:28px;padding:1px;border-width:1px;margin-bottom:10px}
+.about-portrait{width:80px;max-width:80px;height:80px;margin-left:20px}
+@media(max-width:620px){.hero-portrait{width:24px;height:24px}.about-portrait{width:76px;max-width:76px;height:76px;margin-left:0}}
