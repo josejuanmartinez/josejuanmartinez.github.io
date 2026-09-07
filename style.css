@@ -18,3 +18,22 @@
 .hero-project{align-self:center}
 @media(max-width:900px){.method-grid{grid-template-columns:1fr}.method-card{padding:22px}.hero{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.hero{grid-template-columns:1fr}.project-diagram{max-width:100%}}
+
+/* Studio showcase: the one closed-source project, so it carries its own art and copy. */
+.showcase{display:grid;grid-template-columns:.62fr 1.38fr;gap:34px;align-items:center;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:28px}
+.showcase-art{width:100%;height:100%;max-height:760px;object-fit:cover;object-position:top;border:1px solid var(--line);border-radius:8px;display:block}
+.showcase-copy h3{font-size:clamp(28px,3vw,38px);letter-spacing:-1px;margin:14px 0 16px}
+.showcase-copy p{color:var(--muted);font-size:15px;line-height:1.75;margin:0 0 16px}
+.showcase-list{list-style:none;margin:22px 0;padding:0;display:grid;gap:11px}
+.showcase-list li{position:relative;padding-left:20px;font-size:14px;line-height:1.65;color:var(--muted)}
+.showcase-list li:before{content:'';position:absolute;left:0;top:8px;width:7px;height:7px;background:var(--lime);border-radius:2px}
+.showcase-list strong{color:var(--ink);font-weight:600}
+.tag-row{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 18px}
+.tag-row span{font-size:10px;letter-spacing:1.5px;color:#c2c8bb;border:1px solid var(--line);border-radius:20px;padding:6px 11px}
+.showcase-note{font-size:13px;color:#8d948a;border-left:2px solid var(--lime);padding-left:14px;margin:0}
+.shot-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}
+.shot{margin:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--panel)}
+.shot img{width:100%;height:auto;display:block;border-bottom:1px solid var(--line)}
+.shot figcaption{padding:14px 16px;font-size:12.5px;line-height:1.6;color:var(--muted)}
+@media(max-width:900px){.showcase{grid-template-columns:1fr;padding:22px}.showcase-art{max-height:420px;object-position:center 22%}.shot-row{grid-template-columns:1fr 1fr;gap:12px}}
+@media(max-width:620px){.shot-row{grid-template-columns:1fr}}
