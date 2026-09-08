@@ -27,7 +27,7 @@ page='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="v
 # Compact scientific visuals replace decorative section artwork.
 page=re.sub(r'<img[^>]+src="assets/generated/[^>]+>', '', page)
 featured=[]
-for name,title in [('concept-art-generator','Concept Art Generator'),('qwen-image-lora-studio','Qwen Image LoRA Studio'),('mindcraft','Mindcraft')]:
+for name,title in [('concept-art-generator','Concept Art Generator'),('qwen-image-lora-studio','Qwen Image LoRA Studio'),('FLUX-1-dev','Flux LoRA Studio'),('mindcraft','Mindcraft')]:
  note=notes[name]
  alt=note['visual_description']
  featured.append(f'<a class="method-card" href="https://github.com/josejuanmartinez/{name}"><span class="eyebrow">{esc(note["caption"])}</span><h3>{title} &#8599;</h3><img class="project-diagram" src="assets/figures/{name}.png" alt="{esc(alt)}" width="240" height="120" loading="lazy" style="width:240px;height:120px;max-width:100%;object-fit:contain"><p>{esc(note["summary"])}</p></a>')
