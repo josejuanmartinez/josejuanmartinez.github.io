@@ -22,8 +22,9 @@
 
 /* Featured Creative AI cards carry real captures of the tools. The studio screenshots are ~2:1, so
    the card shows them whole; the square Concept Art capture is cropped to its middle band. */
-.method-card .project-shot{height:auto;aspect-ratio:2/1;object-position:top}
-.method-card .shot-center{object-position:center}
+.method-card .project-shot,.repo-card .project-shot{height:auto;aspect-ratio:2/1;object-position:top}
+.method-card .shot-center,.repo-card .shot-center{object-position:center}
+.repo-card .project-shot{margin:12px 0 18px}
 /* Mindcraft spans the row and shows both README figures: the 16:9 demo header sets the row height
    and the tall architecture diagram fills the remaining column, cropped from the top. */
 .method-card--wide{grid-column:1/-1}
