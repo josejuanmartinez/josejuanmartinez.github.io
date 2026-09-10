@@ -38,6 +38,22 @@ ffmpeg -y -ss 5 -t 5 -i $M/capture/raw-portrait.mp4 -vf   "fps=12,scale=360:640:
 README over `https://josejuanmartinez.github.io/`. Renaming or removing it breaks the image
 on the GitHub profile.
 
+## Featured Creative AI cards
+
+The four cards in `#ai` show real captures rather than schematics (`shots` in `build.py`).
+The three studios are screenshots of the running Gradio apps; Mindcraft carries both figures
+from its README — the Galadriel demo header and the architecture diagram — and spans the row.
+
+```sh
+magick lora_studio.png -resize 1200x -strip -quality 82   assets/qwen-lora-studio.webp
+magick flux_studio.png -resize 1200x -strip -quality 82   assets/flux-lora-studio.webp
+magick studio.png      -resize 1200x -strip -quality 82   assets/concept-art-generator.webp
+
+# From https://github.com/josejuanmartinez/mindcraft#readme (galadriel.png and the architecture asset).
+magick galadriel.png    -strip -quality 84   assets/mindcraft-galadriel.webp
+magick architecture.png -strip -quality 84   assets/mindcraft-architecture.webp
+```
+
 ## Project diagrams
 
 `project-notes.json` records summaries, source links, and individual visual explanations based on each repository's README (and root files for sparse documentation). These diagrams describe concepts and workflows, not benchmark results.

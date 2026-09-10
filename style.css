@@ -20,6 +20,19 @@
 @media(max-width:900px){.method-grid{grid-template-columns:1fr}.method-card{padding:22px}.hero{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.hero{grid-template-columns:1fr}.project-diagram{max-width:100%}}
 
+/* Featured Creative AI cards carry real captures of the tools. The studio screenshots are ~2:1, so
+   the card shows them whole; the square Concept Art capture is cropped to its middle band. */
+.method-card .project-shot{height:auto;aspect-ratio:2/1;object-position:top}
+.method-card .shot-center{object-position:center}
+/* Mindcraft spans the row and shows both README figures: the 16:9 demo header sets the row height
+   and the tall architecture diagram fills the remaining column, cropped from the top. */
+.method-card--wide{grid-column:1/-1}
+.shot-pair{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin:16px 0}
+.shot-pair .project-shot{margin:0;aspect-ratio:16/9}
+.shot-fill{position:relative;min-height:0}
+.shot-fill .project-shot{position:absolute;inset:0;height:100%;aspect-ratio:auto;margin:0}
+@media(max-width:900px){.method-card--wide{grid-column:auto}.shot-pair{grid-template-columns:1fr}.shot-fill{aspect-ratio:4/3}}
+
 /* Studio showcase: the one closed-source project, so it carries its own art and copy. */
 .showcase{display:grid;grid-template-columns:.62fr 1.38fr;gap:34px;align-items:center;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:28px}
 .showcase-art{width:100%;height:100%;max-height:760px;object-fit:cover;object-position:top;border:1px solid var(--line);border-radius:8px;display:block}
