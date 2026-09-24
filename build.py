@@ -69,7 +69,7 @@ def showcase(slug,key,kw,kh,key_alt,eyebrow,title,paras,bullets,closing,tags,not
   '</div>')
 possum=showcase('possumarch','possumarch-key.webp',640,1138,
  'Possum Archaeologists key art: a possum in a safari hat holds up a rubber duck beside a shovel in an excavated junkyard',
- 'AGONIA · HTML5 / WEBGL · IN DEVELOPMENT','Possum Archaeologists',
+ 'AGONIA · HTML5 / WEBGL · RELEASED','Possum Archaeologists',
  ['Two possum archaeologists have excavated a junkyard and are entirely convinced they have found priceless '
   'ancient relics. It is a rubber duck. It is a broken flip phone. They do not care — every piece of rubbish is '
   'solemnly catalogued under its museum name, and a bottle cap becomes the Crown of the Fizz King.',
@@ -93,7 +93,7 @@ possum=showcase('possumarch','possumarch-key.webp',640,1138,
   ('win','Score attack. Combo chains up to x8, runs ranked E through S+.')])
 glowdoku=showcase('glowdoku','glowdoku-key.webp',640,960,
  'Glowdoku key art: a neon sudoku board under ASCII mountains, one placed digit firing four beams of light across its row and column',
- 'AGONIA · HTML5 / WEBGL · IN DEVELOPMENT','Glowdoku',
+ 'AGONIA · HTML5 / WEBGL · RELEASED','Glowdoku',
  ['Sudoku, lit up. Every correct number fires beams of light across the board. 1, 4 and 7 share a colour, '
   'so do 2, 5, 8 and 3, 6, 9 — hit a number in the same family and it bursts; cross two beams and they resonate.',
   'The rules are pure sudoku. The light is how it feels, and it is also the score: it charges a ladder of bars '
@@ -112,7 +112,7 @@ glowdoku=showcase('glowdoku','glowdoku-key.webp',640,960,
   ('win','A rank on every win, scored on time and light.')])
 catnap=showcase('catnap','catnap-key.webp',640,1138,
  'Catnap title screen: the Catnap logo with a sleeping calico on top, over a sky of floating islands',
- 'AGONIA · HTML5 / WEBGL · IN DEVELOPMENT','Catnap',
+ 'AGONIA · HTML5 / WEBGL · RELEASED','Catnap',
  ['Small cats. Big problems. A tower defense where the towers are cats, and the cats would rather be asleep. '
   'Meowses, Cockroatches, a Purrmba robot vacuum and Purrgeons march up the garden path to the house, and a '
   'cat that has dozed off only wakes when something walks into its reach.',
