@@ -141,7 +141,7 @@ research=('<section id="research"><div class="section-heading"><div><p class="ey
  +shot('nihonga-research',1200,600,'','Engraving of a Japanese painter&#8217;s worktable with an unfurled pine-and-mountain landscape, under the word Nihonga')
  +'<span class="shot-fill">'+shot('nihonga-structure',760,1437,'','Five hard prompts side by side: the original model at 40 steps, the pruned model at 40 steps and the 8-step student, which merges four friends into a crowd and loses an alarm clock')+'</span>'
  '</div><p>Compressing the 32-block Qwen-Image-2.1 transformer while keeping its spelling, the first thing to break. '
- 'Two blocks are replaced by small learned bridges, and a step-distillation adapter, trained with OCR-weighted text '
+ 'Two blocks are replaced by small learned bridges, and a Lightning LoRA we trained by step distillation, with OCR-weighted text '
  'regions and a gentler three-step start, is fused into the weights. The result, Nihonga v1, renders in 10 steps '
  'instead of 40: 3.9 times faster, 15 of 16 hard spelling items. The full log covers ten phases, from block scans '
  'and bridges to healing, drift tests and the release, with the failures.</p></a></div></section>')
