@@ -134,10 +134,10 @@ studio=('<section id="studio"><div class="section-heading"><div><p class="eyebro
  +possum+glowdoku+catnap+'</section>')
 # AI R&D: long research logs live on their own pages under research/ (hand-written, not generated here).
 research=('<section id="research"><div class="section-heading"><div><p class="eyebrow">01 / AI R&amp;D</p>'
- '<h2>Model research.<br><em>Every cut measured.</em></h2></div>'
- '<p>Open research logs: what was tried, what was measured,<br>and what did not work.</p></div><div class="method-grid">'
+ '<h2>Qwen-Image 2.1,<br><em>4&times; faster.</em></h2></div>'
+ '<p>Nihonga: my pruned and distilled Qwen-Image 2.1. Two of its 32 blocks removed,<br>10 steps instead of 40, and it still spells its signs right.<br>Open weights on Hugging Face, with the full research log.</p></div><div class="method-grid">'
  '<a class="method-card method-card--wide" href="research/nihonga/"><span class="eyebrow">DIFFUSION · PRUNING · DISTILLATION</span>'
- '<h3>Nihonga: a smaller, faster Qwen-Image &#8599;</h3><div class="shot-pair">'
+ '<h3>Nihonga v1.0: Qwen-Image 2.1 in 1.75 s instead of 6.89 s &#8599;</h3><div class="shot-pair">'
  +shot('nihonga-research',1200,600,'','Engraving of a Japanese painter&#8217;s worktable with an unfurled pine-and-mountain landscape, under the word Nihonga')
  +'<span class="shot-fill">'+shot('nihonga-structure',760,1437,'','Five hard prompts side by side: the original model at 40 steps, the pruned model at 40 steps and the 8-step student, which merges four friends into a crowd and loses an alarm clock')+'</span>'
  '</div><p>Compressing the 32-block Qwen-Image-2.1 transformer while keeping its spelling, the first thing to break. '
