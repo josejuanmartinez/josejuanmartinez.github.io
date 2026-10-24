@@ -88,6 +88,25 @@ ffmpeg -y -ss $SS -t 4 -i $T/$IN.mp4 -vf   "fps=10,scale=270:480:flags=lanczos,s
 The GIFs are smaller than possumarch's recipe (4s, 10fps, 270x480, 64 colours): at 5s/12fps/360x640
 these busier boards came out at 3.5-5.1MB. The hero's "game reels" count is `len(games)`.
 
+### More Agonia reels in `#games`
+
+Thirteen more studio games have a reel in the `#games` gallery (no showcase article). Each reel
+comes from the package's store video, `marketing/store/video_1080x1920.mp4`, which the package's
+`marketing` script cuts from a real headless capture. It is never a generated trailer. The start
+offset is the `start` in that package's `marketing/promo.json`, so the reel opens on play and not
+on the menu. Run this from `packages/` in the Agonia repo (`$S` = this repo's `assets/`):
+
+```sh
+# g slug start: blockpunch block_punch 2.6, deckfall deckfall 6, dwarven-pit-racer dwarven_pit_racer 8.5,
+# feria spanish_carnival 4, fruittrain fruit_train 3, hexelements hex_elements 13, mazeloop maze_loop 4,
+# octopong octo_pong 10.5, paintback paint_back 6, slimesumo slime_sumo 2.5,
+# where-in-the-world where_in_the_world 3.5, where-in-time where_in_time 3.5, yolkpop yolk_pop 5.5
+IN=game-$g/marketing/store/video_1080x1920.mp4
+ffmpeg -y -ss $ss -t 6 -i $IN -vf "scale=540:960:flags=lanczos" -c:v libx264 -crf 29 -preset slow   -profile:v high -pix_fmt yuv420p -movflags +faststart -an $S/$slug.mp4
+ffmpeg -y -ss $(awk "BEGIN{print $ss+1.5}") -i $IN -frames:v 1 -vf "scale=540:960:flags=lanczos" -q:v 4 $S/$slug.jpg
+ffmpeg -y -ss $ss -t 4 -i $IN -vf "fps=10,scale=270:480:flags=lanczos,split[a][b];[a]palettegen=max_colors=64:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle"   -loop 0 $S/$slug.gif
+```
+
 ## Featured Creative AI cards
 
 The four cards in `#ai` show real captures rather than schematics (`shots` in `build.py`).
